@@ -1,8 +1,8 @@
 ---
 applications:
 - name: RestServiceCloudDB
-  path: target\RestServiceCloudDB-0.0.1-SNAPSHOT.war
+  path: RestServiceCloudDB\target\RestServiceCloudDB-0.0.1-SNAPSHOT.war
   random-route: true
-  memory: 3024M
+  memory: 1024M
   buildpacks :
   - sap_java_buildpack
